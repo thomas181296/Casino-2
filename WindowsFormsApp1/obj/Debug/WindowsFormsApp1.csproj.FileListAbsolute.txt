@@ -8,3 +8,4 @@ C:\Users\ts181296\Documents\Visual Studio 2017\C-sharp-projects\Casino 2\Casino-
 C:\Users\ts181296\Documents\Visual Studio 2017\C-sharp-projects\Casino 2\Casino-2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\ts181296\Documents\Visual Studio 2017\C-sharp-projects\Casino 2\Casino-2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\ts181296\Documents\Visual Studio 2017\C-sharp-projects\Casino 2\Casino-2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ts181296\Documents\Visual Studio 2017\C-sharp-projects\Casino 2\Casino-2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Roulette.resources

@@ -24,12 +24,24 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form1 m = new Form1();
+            m.Show();
 
+            this.Hide();
+             
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Roulette_Click(object sender, EventArgs e)
+        {
+            Roulette m = new Roulette();
+            m.Show();
+
+            this.Hide();
         }
     }
 }
