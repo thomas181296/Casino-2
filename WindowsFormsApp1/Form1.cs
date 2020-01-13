@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 m = new Form1();
+            Coin_Flipper m = new Coin_Flipper ();
             m.Show();
 
             this.Hide();
