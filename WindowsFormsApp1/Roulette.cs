@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             int userEntry = 0;
 
             
-            lblNumber.Text = "The random number was" + number;
+            lblNumber.Text = "The random number was " + number;
            
 
             if(number == userEntry)

@@ -39,7 +39,7 @@
             // 
             // btn_result
             // 
-            this.btn_result.Location = new System.Drawing.Point(250, 238);
+            this.btn_result.Location = new System.Drawing.Point(75, 253);
             this.btn_result.Name = "btn_result";
             this.btn_result.Size = new System.Drawing.Size(205, 148);
             this.btn_result.TabIndex = 0;
@@ -68,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(341, 129);
+            this.label3.Location = new System.Drawing.Point(341, 199);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(174, 13);
             this.label3.TabIndex = 4;
@@ -77,7 +77,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(350, 195);
+            this.label5.Location = new System.Drawing.Point(341, 345);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(165, 13);
             this.label5.TabIndex = 6;
@@ -86,18 +86,19 @@
             // lblHead
             // 
             this.lblHead.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblHead.Location = new System.Drawing.Point(594, 128);
+            this.lblHead.Location = new System.Drawing.Point(546, 129);
             this.lblHead.Name = "lblHead";
-            this.lblHead.Size = new System.Drawing.Size(100, 23);
+            this.lblHead.Size = new System.Drawing.Size(163, 83);
             this.lblHead.TabIndex = 7;
             // 
             // lblTail
             // 
             this.lblTail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblTail.Location = new System.Drawing.Point(597, 194);
+            this.lblTail.Location = new System.Drawing.Point(546, 280);
             this.lblTail.Name = "lblTail";
-            this.lblTail.Size = new System.Drawing.Size(100, 23);
+            this.lblTail.Size = new System.Drawing.Size(163, 78);
             this.lblTail.TabIndex = 8;
+            this.lblTail.Click += new System.EventHandler(this.lblTail_Click);
             // 
             // Coin_Flipper
             // 

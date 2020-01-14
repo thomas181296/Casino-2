@@ -43,9 +43,13 @@ namespace WindowsFormsApp1
                     ++tails;
                 }
             }
-            lblHead = "Heads was flipped" + heads + "times";
-            lblTail = "Tails was flipped" + tails + "times";
+            lblHead.Text = "Heads was flipped " + heads + " times";
+            lblTail.Text = "Tails was flipped " + tails + " times";
         }
-        
+
+        private void lblTail_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,10 +32,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.btn_CoinFlip = new System.Windows.Forms.Button();
             this.btn_Roulette = new System.Windows.Forms.Button();
-            this.btn_SlotMachine = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +60,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Orange;
-            this.label3.Location = new System.Drawing.Point(88, 359);
+            this.label3.Location = new System.Drawing.Point(225, 359);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 2;
@@ -73,26 +71,16 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Orange;
-            this.label5.Location = new System.Drawing.Point(403, 349);
+            this.label5.Location = new System.Drawing.Point(631, 359);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Roulette";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Orange;
-            this.label6.Location = new System.Drawing.Point(697, 349);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Slot Machine";
-            // 
             // btn_CoinFlip
             // 
             this.btn_CoinFlip.BackColor = System.Drawing.Color.Orange;
-            this.btn_CoinFlip.Location = new System.Drawing.Point(56, 414);
+            this.btn_CoinFlip.Location = new System.Drawing.Point(184, 414);
             this.btn_CoinFlip.Name = "btn_CoinFlip";
             this.btn_CoinFlip.Size = new System.Drawing.Size(133, 134);
             this.btn_CoinFlip.TabIndex = 6;
@@ -103,24 +91,13 @@
             // btn_Roulette
             // 
             this.btn_Roulette.BackColor = System.Drawing.Color.Orange;
-            this.btn_Roulette.Location = new System.Drawing.Point(369, 414);
+            this.btn_Roulette.Location = new System.Drawing.Point(597, 414);
             this.btn_Roulette.Name = "btn_Roulette";
-            this.btn_Roulette.Size = new System.Drawing.Size(114, 134);
+            this.btn_Roulette.Size = new System.Drawing.Size(140, 134);
             this.btn_Roulette.TabIndex = 7;
             this.btn_Roulette.Text = "Roulette";
             this.btn_Roulette.UseVisualStyleBackColor = false;
             this.btn_Roulette.Click += new System.EventHandler(this.btn_Roulette_Click);
-            // 
-            // btn_SlotMachine
-            // 
-            this.btn_SlotMachine.BackColor = System.Drawing.Color.Orange;
-            this.btn_SlotMachine.Location = new System.Drawing.Point(665, 414);
-            this.btn_SlotMachine.Name = "btn_SlotMachine";
-            this.btn_SlotMachine.Size = new System.Drawing.Size(133, 134);
-            this.btn_SlotMachine.TabIndex = 8;
-            this.btn_SlotMachine.Text = "Slot Machine";
-            this.btn_SlotMachine.UseVisualStyleBackColor = false;
-            this.btn_SlotMachine.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -129,10 +106,8 @@
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.download__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(937, 661);
-            this.Controls.Add(this.btn_SlotMachine);
             this.Controls.Add(this.btn_Roulette);
             this.Controls.Add(this.btn_CoinFlip);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -150,10 +125,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btn_CoinFlip;
         private System.Windows.Forms.Button btn_Roulette;
-        private System.Windows.Forms.Button btn_SlotMachine;
     }
 }
 
